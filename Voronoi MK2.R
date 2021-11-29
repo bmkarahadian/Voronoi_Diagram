@@ -2,11 +2,10 @@ library(tidyverse)
 library(sf)
 library(lwgeom)
 library(nngeo)
-library(lubridate)
 
-points_x <- k19$Longitude
-points_y <- k19$Latitude
-bounds <-  bounds_fresno
+#points_x = numeric vector of x/Longitude values
+#points_y = numeric vector of y/Latitude values
+#bounds = sf polygon of the bounding region
 
 voronoi <- function(points_x, points_y, bounds) {
   
