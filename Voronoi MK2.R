@@ -2,6 +2,7 @@ library(tidyverse)
 library(sf)
 library(lwgeom)
 library(nngeo)
+library(lubridate)
 
 #points_x = numeric vector of x/Longitude values
 #points_y = numeric vector of y/Latitude values
@@ -57,7 +58,7 @@ voronoi <- function(points_x, points_y, bounds) {
   #between that point and every other point
   dat <- 
     map(1:nrow(points_global), function(x) {
-      points[x,] %>%
+      points_global[x,] %>%
         as.matrix() %>%
         st_point()
     }) %>%
@@ -153,7 +154,6 @@ voronoi <- function(points_x, points_y, bounds) {
   #split boundary polygon into individual line segments
   #this allows us to determine where exactly an intersection line crosses the boundary
   bounding_lines <- st_segments(bounds, progress = FALSE)
-  
   
   
   
@@ -412,6 +412,3 @@ voronoi <- function(points_x, points_y, bounds) {
     select(-others) %>%
     mutate(polys = st_sfc(polys))
 }
-
-
-
