@@ -2,7 +2,7 @@
 
 This project originated from my volunteer work with the Fresno County Public Health Department. I was tasked with analyzing the vaccination rates (for polio, measles, etc.) of the public schools within the county. I immediately realized that this type of diagram would be the perfect way to visualize these data, since it is a relatively safe assumption that the vast majority of students attend the school that is nearest to their home. I could color the various sectors by the nearest school's vaccination rate and get a good sense of the various enclaves within the county.
 
-Unfortunately, I had never heard of a Voronoi diagram, nor did I learn about it while searching for existing solutions in R. I did not learn the term "Voronoi" until I had already built one from scratch...
+Unfortunately, I had never heard of a Voronoi diagram, nor did I learn about it while searching for existing solutions in R. In fact, I did not learn the term "Voronoi" until I had already built one from scratch...
 
 So this project, "Voronoi MK2.r" in particular, contains code that builds a Voronoi diagram given a set of points and a boundary polygon. In my case, the points were all of the schools in Fresno County and the boundary polygon is Fresno County itself.
 
