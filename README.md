@@ -19,4 +19,4 @@ Drawing all n-1 lines of equidistance and the boundary polygon creates a bounded
 When all n polygons are drawn, we are left with a Voronoi diagram that fills the boundary space.
 
 
-See the included .png file for a static finished product. See the Wikipedia page for Voronoi Diagrams for more information. And see https://bmkarahadian.shinyapps.io/fresno_vaccine_voronoi/ for the leaflet/shiny app I built to visualize the Fresno County data.
+See the included .png file for a static finished product. See the Wikipedia page for Voronoi Diagrams for more information (https://en.wikipedia.org/wiki/Voronoi_diagram). And see https://bmkarahadian.shinyapps.io/fresno_vaccine_voronoi/ for the leaflet/shiny app I built to visualize the Fresno County data.
