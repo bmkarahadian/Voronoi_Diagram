@@ -6,6 +6,8 @@ Unfortunately, I had never heard of a Voronoi diagram, nor did I learn about it 
 
 So this project, "Voronoi MK2.r" in particular, contains code that builds a Voronoi diagram given a set of points and a boundary polygon. In my case, the points were all of the schools in Fresno County and the boundary polygon is Fresno County itself.
 
+The "server.R" and "ui.R" are the scripts used to create the Shiny App which was the finished project.
+
 ## Method Overview
 
 This is a streamlined description of the algorithm:
