@@ -1,4 +1,4 @@
-# Voronoi_Diagram
+# Voronoi Diagram 
 
 This project originated from my volunteer work with the Fresno County Public Health Department. I was asked to analyze the immunization rates (for polio, measles, etc.) of the county's public schools. I decided that this type of diagram would be the perfect way to visualize these data, since it is a relatively safe assumption that the vast majority of students attend that school which is nearest to their home. I could color the  sectors by the nearest school's immunization rate to get a  sense of the various enclaves within the county.
 
